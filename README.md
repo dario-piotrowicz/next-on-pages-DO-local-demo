@@ -9,13 +9,13 @@ Install dependencies:
 $ npm i
 ```
 
-Then you need to run the durable object worker in a terminal (so that it can be accessed from the next-on-pages worker):
+Then you need to run the durable object worker in a terminal (so that it can be accessed from the next/next-on-pages app):
 ```
 $ cd do_worker
 $ npm run dev
 ```
 
-Then in a separate terminal run the app using `next dev` (with the [dev-bindings](https://github.com/cloudflare/next-on-pages/pull/486) implemented using Miniflare's magic proxy):
+Then in a separate terminal run the app using `next dev` (with [next-dev](https://github.com/cloudflare/next-on-pages/pull/486) implemented using Miniflare's magic proxy):
 ```
 $ cd next-app
 $ npm run dev
@@ -27,7 +27,7 @@ $ cd next-app
 $ npm run pages:build
 ```
 (or `pages:build:watch` for building in watch mode)
-abd then run:
+and then run:
 ```
 $ npm run pages:dev
 ```
