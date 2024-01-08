@@ -1,5 +1,9 @@
 # next-on-pages DO local demo
 
+> [!WARNING]
+> This demo is no longer relevant and has been superseded by:<br>
+> https://github.com/dario-piotrowicz/next-on-pages-stable-next-dev-test-demo
+
 The app contains a single route that shows the usage of a durable object in local mode.
 
 ## Steps to run the app
